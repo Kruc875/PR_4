@@ -26,5 +26,4 @@ public partial class Partner
     public virtual User IdPartnerNavigation { get; set; } = null!;
 
     public virtual ICollection<PartnersProduct> PartnersProducts { get; set; } = new List<PartnersProduct>();
-
 }
